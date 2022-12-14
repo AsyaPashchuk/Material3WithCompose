@@ -8,15 +8,15 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 
 private val DarkColorPalette = darkColorScheme(
-    primary = Green80,
-    onPrimary = Green20,
-    primaryContainer = Green30,
-    onPrimaryContainer = Green90,
-    inversePrimary = Green40,
-    secondary = DarkGreen80,
-    onSecondary = DarkGreen20,
-    secondaryContainer = DarkGreen30,
-    onSecondaryContainer = DarkGreen90,
+    primary = Rose80,
+    onPrimary = Rose20,
+    primaryContainer = Rose30,
+    onPrimaryContainer = Rose90,
+    inversePrimary = Rose40,
+    secondary = DarkRose80,
+    onSecondary = DarkRose20,
+    secondaryContainer = DarkRose30,
+    onSecondaryContainer = DarkRose90,
     tertiary = Violet80,
     onTertiary = Violet20,
     tertiaryContainer = Violet30,
@@ -27,25 +27,25 @@ private val DarkColorPalette = darkColorScheme(
     onErrorContainer = Red90,
     background = Grey10,
     onBackground = Grey90,
-    surface = GreenGrey30,
-    onSurface = GreenGrey80,
+    surface = RoseGrey30,
+    onSurface = RoseGrey80,
     inverseSurface = Grey90,
     inverseOnSurface = Grey10,
-    surfaceVariant = GreenGrey30,
-    onSurfaceVariant = GreenGrey80,
-    outline = GreenGrey80
+    surfaceVariant = RoseGrey30,
+    onSurfaceVariant = RoseGrey80,
+    outline = RoseGrey80
 )
 
 private val LightColorPalette = lightColorScheme(
-    primary = Green40,
+    primary = Rose40,
     onPrimary = Color.White,
-    primaryContainer = Green90,
-    onPrimaryContainer = Green10,
-    inversePrimary = Green80,
-    secondary = DarkGreen40,
+    primaryContainer = Rose90,
+    onPrimaryContainer = Rose10,
+    inversePrimary = Rose80,
+    secondary = DarkRose40,
     onSecondary = Color.White,
-    secondaryContainer = DarkGreen90,
-    onSecondaryContainer = DarkGreen10,
+    secondaryContainer = DarkRose90,
+    onSecondaryContainer = DarkRose10,
     tertiary = Violet40,
     onTertiary = Color.White,
     tertiaryContainer = Violet90,
@@ -56,13 +56,13 @@ private val LightColorPalette = lightColorScheme(
     onErrorContainer = Red10,
     background = Grey99,
     onBackground = Grey10,
-    surface = GreenGrey90,
-    onSurface = GreenGrey30,
+    surface = RoseGrey90,
+    onSurface = RoseGrey30,
     inverseSurface = Grey20,
     inverseOnSurface = Grey95,
-    surfaceVariant = GreenGrey90,
-    onSurfaceVariant = GreenGrey30,
-    outline = GreenGrey50
+    surfaceVariant = RoseGrey90,
+    onSurfaceVariant = RoseGrey30,
+    outline = RoseGrey50
 )
 
 @Composable

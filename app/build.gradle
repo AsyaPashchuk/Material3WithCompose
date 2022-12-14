@@ -59,12 +59,12 @@ dependencies {
     debugImplementation "androidx.compose.ui:ui-tooling:$compose_version"
 
     //Material 3
-    implementation "androidx.compose.material3:material3-window-size-class:1.0.1"
-    implementation "androidx.compose.material3:material3:1.0.1"
+    implementation "androidx.compose.material3:material3:1.0.0-alpha12"
+    implementation "androidx.compose.material3:material3-window-size-class:1.0.0-alpha12"
 
     //It's for tips, it will be in single row and if will have more than 1 row
     // it'll be on the next row
-    implementation "com.google.accompanist:accompanist-flowlayout:0.24.8"
+    implementation "com.google.accompanist:accompanist-flowlayout:0.24.8-beta"
 
     //Coil (for images like Glide)
     implementation "io.coil-kt:coil:2.0.0"
